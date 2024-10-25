@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int subject, index, num1, sum=0, Avg;
+	cout<<"How many subjects marks do u want to Enter : ";
+	cin>>num1;
+	if(num1<=0)
+	{
+	cout<<"Invaid number"<<endl;
+	}
+	for( index=1;  index<=num1;  index++ )
+	{
+	    cout<<"Enter the marks of subject Number "<<index<<" : ";
+	    cin>>subject;
+	    sum=sum+subject;
+	    }
+	cout<<"\nThe Sum is:"<<sum<<endl;
+	int avg=sum/num1;
+	cout<<"\nThe Average is : "<<avg<<endl;
+	double percent = (sum*100)/(num1*100);
+	cout<<"\nYour Percentage is : "<<percent<<endl<<endl;
+	if ( percent>=90&& percent<=100 )
+	cout<<"Your Grade is : A"<<endl;
+	 else if ( percent>=75&& percent<=89 )
+	cout<<"Your Grade is : B"<<endl;
+	 else if ( percent>=50&& percent<=74 )
+	cout<<"Your Grade is : C"<<endl;
+	else if ( percent<50 )
+	cout<<"Your Grade is : F"<<endl;
+	else
+	cout<<"Invalid average";
+//Created By: Muhammad Abdullah
+return 0;
+}
