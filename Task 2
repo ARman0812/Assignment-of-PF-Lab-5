@@ -1,1 +1,17 @@
-.
+#include <iostream>
+using namespace std;
+
+int main(){
+	int num1,index,sum=0;
+	cout<<"Enter the Number you want to find sum of : ";
+	cin>>num1;
+	
+	for (index=0;index<=num1;index++){
+		sum=sum+index;
+		cout<<sum<<endl;
+	}
+	cout<<"The Sum of the Natural Numbers is : "<<sum<<endl;
+
+//Created By: Muhammad Abdullah 0119
+return 0;	
+}
