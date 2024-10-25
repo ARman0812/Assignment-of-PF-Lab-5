@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+ 
+ int number,cube;
+ cout<<"Enter any Number to find it's Cube : ";
+ cin>>cube;
+ cout<<"Numbers\t\tcube"<<endl;
+ for(number=1; number<=cube; number++){
+    
+ cout<<number<<"\t\t"<<(number*number*number)<<endl;
+}
+ //Created By: Muhammad Abdullah
+  return 0;
+}
