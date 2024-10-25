@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	int numbers;
+	cout<<"The Numbers from 10 to 1 in Reverse order are : "<<endl;
+	
+	for (numbers=10;numbers>=1;numbers--){
+	cout<<numbers<<endl;	
+	}
+	
+//Created By: Muhammad Abdullah
+}
