@@ -1,1 +1,14 @@
-.
+#include <iostream>
+using namespace std;
+
+int main (){
+	int index,num1;
+	cout<<"Enter a Number to find it's Table : ";
+	cin>>num1;
+	for(index=1;index<=10;index=index+1){
+	cout<<num1<<" * " <<index<<" = "<<index*num1<<endl;
+	
+//Created By: Muhammad Abdullah 
+return 0;
+}
+}
