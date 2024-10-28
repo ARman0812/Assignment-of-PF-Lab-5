@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	
+	//Intro of an App
+	cout<<"\t\t\t\tJazzCash\n\t\t\t       ==========";
+	cout<<" \nWelcome to the JazzCash App\n"<<endl;
+	
+	//Taking Initial Balance from the User
+	double initial_balance = 0;
+	cout<<"Enter the Initial Balance of your Account (RS): ";
+	cin>>initial_balance;
+	
+	//Taking Deposit amount from user
+	double deposit_amount = 0;
+	cout<<"How much do you want to Deposit (RS): ";
+	cin>>deposit_amount;
+	
+	//Taking Withdrawal amount from user
+	double withdraw_amount = 0;
+	cout<<"How much do you want to Withdraw (RS): ";
+	cin>>withdraw_amount;
+	
+	//Updating Initial Balance after new Deposit Amount
+	initial_balance += deposit_amount;
+	cout<<"\n Your Balance After Deposit is : "<<initial_balance<<" RS "<<endl;
+	
+	//Updating Initial Balance after Withdrawal amount 
+	initial_balance -= withdraw_amount;
+	cout<<"\n Your Balance after Withdrawal is : "<<initial_balance<<" RS "<<endl;
+	
+	//A nice goodbye to the user 
+	cout<<"\nThanks for using our App";
+
+//Created By: Muhammad Abdullah 0119 BSCS
+return 0;
+}
